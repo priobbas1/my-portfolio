@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+div.din-a4{
+    height: 297mm;
+    width:210mm;
+    margin:1rem;
+    border: 1px solid rgb(0, 0, 0);
+    display: flex;
+}
+body{ 
+    height: 100vh;
+    width: 100vw;
+}
+main{
+    width: calc(100%*7/12);
+    background-color: rgb(255, 255, 255);
+    padding: 2rem;
+}
+h2{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: #0e77a836;
+}
+.year,.concept{
+    font-weight: bold;
+}
+.task{
+    display: block;
+}
+.exp-lab li{
+    margin: 1rem;
+}
+aside{
+    width: calc(100%*5/12);
+    background-color:rgb(9, 142, 186);
+    padding:1rem;
+    color: white;
+    font-size: larger;
+    text-shadow: 2px 2px 2px #0e76a8;
+}
+div.photo{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+svg#Layer_1{
+    width: 32px;
+    height: auto;
+}
+svg#email-icon {
+    width: 18px;
+    height: auto;
+}
+svg#phone-icon {
+    width: 18px;
+    height: auto;
+}
+.contact, .email, .phone, .git {
+    display: flex;
+}
+.contact-icon{
+    display: flex;
+    overflow: auto;
+    width: auto;
+    margin: 0.1rem;
+}
+.email-icon {
+    display: flex;
+    overflow: auto;
+    width: auto;
+    margin: 0.1rem;
+    background-color: #0e76a8;
+    padding: 7px;
+    border-radius: 50%;
+}
+.git-icon {
+    display: flex;
+    overflow: auto;
+    width: auto;
+    margin: 0.1rem;
+    background-color: #0e76a8;
+    padding: 4px;
+    border-radius: 50%;
+}
+.contact-url, .email-url, .git-url{
+    display: flex;
+    overflow: auto;
+    width: auto;
+    align-items: center;
+    margin-left: 1rem;
+}
+.name{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 26px;
+    font-weight: bold;
+}
+.studies {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+section ul{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+li{
+    list-style: none;
+}
+section li {
+    width: 32px;
+    height: 32px;
+    border: 1rem black;  
+}
+section span{
+    display: none;
+}
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    /* no underline */
+}
